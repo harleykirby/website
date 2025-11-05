@@ -4,10 +4,8 @@
   "description": "48x48 Pixel Art Editor - Create and share pixel art online",
   "main": "index.html",
   "scripts": {
-    "start": "npx serve .",
-    "dev": "npx serve . -p 3000",
-    "build": "echo 'No build step needed - static HTML'",
-    "deploy": "echo 'Ready to deploy - upload index.html to your hosting service'"
+    "start": "npx serve -s . -l 10000",
+    "build": "echo 'Build complete'"
   },
   "keywords": [
     "pixel-art",
@@ -15,9 +13,9 @@
     "drawing",
     "canvas"
   ],
-  "author": "Harley Kirbs",
+  "author": "Kirbs",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "serve": "^14.2.0"
   }
 }
